@@ -72,9 +72,9 @@ make sure you see a file ending in
 `.sln
 `
 then type 
-```
+`
 dotnet build
-```
+`
 make sure it says zero build errors
 then 
 ```cd basicCsharp
