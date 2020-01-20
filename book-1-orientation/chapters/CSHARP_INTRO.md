@@ -77,10 +77,12 @@ then type
 
 make sure it says zero build errors
 then 
-```cd basicCsharp
-```
+`cd basicCsharp`
+
 do another "ls" and look for a file named "Program.cs" -- cs stands for C#
-last step: type
+
+
+last step -> type
 
 `
 dotnet run
