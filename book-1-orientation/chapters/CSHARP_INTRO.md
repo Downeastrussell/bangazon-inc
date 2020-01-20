@@ -81,12 +81,18 @@ then
 ```
 do another "ls" and look for a file named "Program.cs" -- cs stands for C#
 last step: type
-```dotnet run
-```
+
+`
+dotnet run
+`
+
 (this is doing the same thing as the play button, but from the command line. You want to become command line ninjas.
-and you should see 
+
+
+should output this to the terminal
 ```
-welcome to IT242...like it" printed to the PMC
+
+Welcome to IT242, where we will learn to build and we will like it!
 ```
 
 
