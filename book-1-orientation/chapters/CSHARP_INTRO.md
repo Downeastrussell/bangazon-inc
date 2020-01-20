@@ -6,58 +6,64 @@ Please read and complete the steps in the official [Get Started with C# and Visu
 
 ## Setup
 
+Make a directory(new folder) called "IT242" -- this is where you will save all of your work for this class
+
+
 We're going to get your first C# console application setup and running so that we can review some basics of the language.
 
-Create a directory to hold the application.
+1. Open Visual Studio 2019(purple icon)
+2. select "create new project"
+3. Select "Console App(.NET Core)
+4. Name your project "basicCsharp" and save it in a new folder (ie. IT242/Book1/Chapter2) and press "create"
+5. should see code that looks like this...
 
-```sh
-mkdir -p ~/workspace/csharp/intro && cd $_
+```
+using System;
+
+namespace test3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
 ```
 
-Create a new console application with the `dotnet` command line utility.
-
-```sh
-dotnet new console
-```
 
 This will create two files in the directory
 
 1. `intro.csproj` - This file holds all the packages that you application will be using. It's the `package.json` for C#.
 1. `Program.cs` - This is the file that holds your logic. Think of it as your `main.js`. It's where the logic of your application starts.
 
-Copy this code into your Program.cs, replacing everything there.
+Change "Hello World" -> "Welcome to IT242, where we will learn to build and we will like it!"
+```
 
-```cs
-using System;
-
-namespace bangazoncli
-{
-    public class Program
-    {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Bangazon!");
+            Console.WriteLine("Welcome to IT242, where we will learn to build and we will like it!");
         }
-    }
-}
+
 
 ```
 
-> ☞ Unike JavaScript, C# is a compiled language, meaning that you need a compiler to read the source code, parse all the logic, and then construct a new executable file.
+> ☞ C# is a compiled language, meaning that you need a compiler to read the source code, parse all the logic, and then construct a new executable file.
 
-Next, you compile the program.
+Now you press the "Play" symbol(located at the top, sideways green triangle) to build and run your new console app!!
 
-```sh
-dotnet build
+You should see `Welcome to IT242, where we will learn to build and we will like it!` print out in your terminal.
+
+OPTIONAL -- in searchbar type "Package Manager Console" --(PMC is an integrate terminal) -- select this and a window should pop up at the bottom of the screen, now enter these commands below
+```do a quick -- ls -- this lists all files in the current directory
+make sure you see a file ending in .sln 
+then type "dotnet build" -- make sure it says zero errors
+then cd into the sotutions folder(it should be what you named your project ie. "basicCsharp" -> cd basicCsharp
+do another "ls" look for a file named "Program.cs" -- cs stands for C#
+last step: type "dotnet run" and you should see "welcome to IT242...like it" printed to the PMC
 ```
 
-Now that you have verified that the program will compile without errors, you can execute it.
-
-```sh
-dotnet run
-```
-
-You should see `Welcome to Bangazon!` print out in your terminal.
 
 ## Strongly Typed Variable in C#
 
@@ -104,7 +110,8 @@ namespace bangazon
 
 # C# Collections and Loops
 
-The C# language has many ways to store a collection of items. You'll quickly see that C# is much more verbose when you write your source code, because the developer needs to provide all of the instructions to the compiler, unlike JavaScript or other dynamically typed languages.
+The C# language has many ways to store a collection of items. You'll quickly see that C# is verbose when you write your source code, because the developer needs to provide all of the instructions to the compiler, unlike JavaScript or other dynamically typed languages.
+
 
 We'll look at a simple type of collection first - list of strings. Add the following code to your `Main` method.
 
