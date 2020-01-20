@@ -39,9 +39,11 @@ two important files in the directory are...
 
 1. `intro.csproj` - This file holds all the packages that you application will be using. It's the `package.json` for C#.
 1. `Program.cs` - This is the file that holds your logic. Think of it as your `main.js`. It's where the logic of your application starts.
-
+```
 Change "Hello World" -> "Welcome to IT242, where we will learn to build and we will like it!"
 ```
+```
+
 
         public static void Main(string[] args)
         {
