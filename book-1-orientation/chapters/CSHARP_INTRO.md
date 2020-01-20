@@ -20,7 +20,7 @@ We're going to get your first C# console application setup and running so that w
 ```
 using System;
 
-namespace test3
+namespace basicCsharp
 {
     class Program
     {
