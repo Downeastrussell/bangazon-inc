@@ -57,15 +57,35 @@ Change "Hello World" -> "Welcome to IT242, where we will learn to build and we w
 
 Now you press the "Play" symbol(located at the top, sideways green triangle) to build and run your new console app!!
 
-You should see `Welcome to IT242, where we will learn to build and we will like it!` print out in your terminal.
+You should see 
+```Welcome to IT242, where we will learn to build and we will like it! 
+```
+print out in your terminal(PMC).
+
 
 OPTIONAL -- in searchbar type "Package Manager Console" --(PMC is an integrate terminal) -- select this and a window should pop up at the bottom of the screen, now enter these commands below
-```do a quick -- ls -- this lists all files in the current directory
-make sure you see a file ending in .sln 
-then type "dotnet build" -- make sure it says zero errors
-then cd into the sotutions folder(it should be what you named your project ie. "basicCsharp" -> cd basicCsharp
-do another "ls" look for a file named "Program.cs" -- cs stands for C#
-last step: type "dotnet run" and you should see "welcome to IT242...like it" printed to the PMC
+
+```ls``` -- this lists all files in the current directory
+
+make sure you see a file ending in
+```.sln
+```
+then type 
+```
+dotnet build
+```
+make sure it says zero build errors
+then 
+```cd basicCsharp
+```
+do another "ls" and look for a file named "Program.cs" -- cs stands for C#
+last step: type
+```dotnet run
+```
+(this is doing the same thing as the play button, but from the command line. You want to become command line ninjas.
+and you should see 
+```
+welcome to IT242...like it" printed to the PMC
 ```
 
 
