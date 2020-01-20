@@ -7,7 +7,7 @@
 
 2. In your terminal go to your `IT242` directory and do steps 2 and 3 in the tutorial to verify everything works.
 
-       *SKIP THIS IF USING LAB COMPUTER, ADMIN RIGHTS REQUIRED*.
+       *SKIP step 2, IF USING LAB COMPUTERS, ADMIN RIGHTS REQUIRED*.
 ## 2.Install [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-editions-express)
 
 ## 3. Install [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)
