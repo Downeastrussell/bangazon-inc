@@ -69,12 +69,12 @@ OPTIONAL -- in searchbar type "Package Manager Console" --(PMC is an integrate t
 
 make sure you see a file ending in
 
-`.sln
-`
+`.sln`
+
 then type 
-`
-dotnet build
-`
+
+`dotnet build`
+
 make sure it says zero build errors
 then 
 ```cd basicCsharp
