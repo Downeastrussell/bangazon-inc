@@ -1,4 +1,4 @@
-# Not Hello, World
+# Simple Console Application in .NET Core "Hello, World"
 
 ## Getting Started Guide
 
