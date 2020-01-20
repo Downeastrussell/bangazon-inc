@@ -1,13 +1,13 @@
 # Common Types - List
 
-In C#, a List is much like the arrays that you used in JavaScript. They are collections of a objects that are all of a specific type.
+In C#, a List is much like the arrays that you used in other languages. They are collections of a objects that are all of a specific type.
 
-* List of integers
-* List of strings
-* List of booleans
-* List of Customers
+* List of integers(numbers)
+* List of strings(words)
+* List of booleans(true/false)
+* List of Customers(unique objects)
 
-However, unlike JavaScript, lists can **only contain** one type. A list cannot be a collection of integers *and* strings.
+lists can **only contain** one type. ie every item in the list has to be ALL numbers or another type.  A list CANNOT be a collection of integers *and* strings.
 
 ```cs
 // Totally fine code
@@ -16,7 +16,7 @@ List<int> yearsBorn = new List<int>() {
 };
 ```
 
-This code will produce red squiggles under 1967 and 1972. C# has no default way to convert a string into an integer, and it will tell you that.
+This code will produce red squiggles(error, computer is confused) under 1967 and 1972. C# has no default way to convert a string into an integer, and it will tell you that.
 
 ```cs
 // Bogus code
@@ -36,6 +36,7 @@ int[] itemsSold = new int[] {9, 12, 8, 8, 7, 14, 13, 9};
 The downside to using arrays in C#, in particular for web application development, is that is not as easy to add and remove items from an array as it is when you use a `List`.
 
 The `List` collection in C# has the following methods that an array does not.
+The below methods are built-in functions that preform an operation on every item in a list.
 
 * [Add()](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.add?view=netcore-2.1)
 * [AddRange()](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.addrange?view=netcore-2.1)
