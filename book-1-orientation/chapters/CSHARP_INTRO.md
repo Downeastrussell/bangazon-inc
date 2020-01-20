@@ -32,8 +32,10 @@ namespace basicCsharp
 }
 ```
 
+in searchbar type in "solution explorer" and open it
 
-This will create two files in the directory
+when you created your project, VS(Visual Studio) automatically creates a few files
+two important files in the directory are...
 
 1. `intro.csproj` - This file holds all the packages that you application will be using. It's the `package.json` for C#.
 1. `Program.cs` - This is the file that holds your logic. Think of it as your `main.js`. It's where the logic of your application starts.
