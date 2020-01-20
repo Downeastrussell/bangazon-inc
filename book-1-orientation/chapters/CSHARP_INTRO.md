@@ -39,9 +39,9 @@ two important files in the directory are...
 
 1. `intro.csproj` - This file holds all the packages that you application will be using. It's the `package.json` for C#.
 1. `Program.cs` - This is the file that holds your logic. Think of it as your `main.js`. It's where the logic of your application starts.
-```
-Change "Hello World" -> "Welcome to IT242, where we will learn to build and we will like it!"
-```
+
+Change "Hello World" to "Welcome to IT242, where we will learn to build and we will like it!" -- like below
+
 ```
 
 
@@ -58,18 +58,19 @@ Change "Hello World" -> "Welcome to IT242, where we will learn to build and we w
 Now you press the "Play" symbol(located at the top, sideways green triangle) to build and run your new console app!!
 
 You should see 
-```Welcome to IT242, where we will learn to build and we will like it! 
-```
-print out in your terminal(PMC).
-
+`
+Welcome to IT242, where we will learn to build and we will like it! 
+`
+print out in your terminal that pops up.
 
 OPTIONAL -- in searchbar type "Package Manager Console" --(PMC is an integrate terminal) -- select this and a window should pop up at the bottom of the screen, now enter these commands below
 
-```ls``` -- this lists all files in the current directory
+`ls` -- this lists all files in the current directory
 
 make sure you see a file ending in
-```.sln
-```
+
+`.sln
+`
 then type 
 ```
 dotnet build
