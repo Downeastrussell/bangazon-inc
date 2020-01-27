@@ -87,8 +87,8 @@ namespace NSSOrientation
 ## Setup
 
 ```
-mkdir -p ~/workspace/csharp/exercises/lists && cd $_
-dotnet new console
+create new project in Visual Studio 2019 -- C# Console App .NET Core
+name project chapter4practice or just practice if you created a folder called 'chapter4'
 ```
 
 ## Instructions
@@ -110,7 +110,12 @@ List<string> planetList = new List<string>(){"Mercury", "Mars"};
 # Practice: Random Numbers
 
 
-## Instructions
+## Instructions -- add this code in same project as planets, so when you run the program, the console prints out all the planets AND prints out the Random Numbers
+## OR
+## create two projects, one named planets and the other called randomNumbers
+## we will work on these together in class but after this chapter I will live-code for the first 30 minutes and give a short lecture on the fundament(s) we will cover that day(whiteboard), and then set you loose to complete the chapter exercises and practice for the last 1.5 hours of class. 
+
+
 1. Use the following code to create a list of random numbers. Each number will be between 0 and 5.
     ```cs
     Random random = new Random();
@@ -140,7 +145,7 @@ numbers list contains 3
 numbers list contains 4
 numbers list does not contains 5
 ```
-**NOTE:** Each run will produce different output.
+**NOTE:** Each time you run the program, it will produce different numbers each time you press run(CTRL-f5)
 
  
 > **Further Reading**
