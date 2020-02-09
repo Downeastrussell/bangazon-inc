@@ -20,7 +20,7 @@ You can also use the `Add()` method to add more key/value pairs to a dictionary.
 toysSold.Add("Bicycles", 87);
 ```
 
-## Iterating a Dictionary
+## Iterating a Dictionary(Looping over a Dictionary)
 
 If you want to see all the toys and how many were sold, you can use a `foreach` to iterate over all of the `KeyValuePair` items in the dictionary.
 
