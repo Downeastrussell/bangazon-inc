@@ -1,17 +1,7 @@
 # Common Types - Dictionary
 
-In C#, a **`Dictionary`** is much like the objects that you used in JavaScript. They are collections of a key/value pairs - just strongly typed.
+In C#, a **`Dictionary`** is much like an object. They are collections of a key/value pairs - just strongly typed.
 
-Here's a JavaScript object to represent toys sold by a business.
-
-```js
-const toysSold = {
-    "hotWheels": 344,
-    "legos": 763,
-    "gamingConsoles": 551,
-    "boardGames": 298
-}
-```
 
 Here's how that would look in C# as a **`Dictionary`**.
 
