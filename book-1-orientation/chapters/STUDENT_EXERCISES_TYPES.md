@@ -15,19 +15,20 @@ You must define a type for representing a student in code. A student can only be
 
 ### Properties
 
-1. First name
-1. Last name
-1. Slack handle
-1. The student's cohort
-1. The collection of exercises that the student is currently working on
+1. First name of type string
+1. Last name of type string
+1. Slack handle of type string
+1. The student's cohort of type <Cohort>(the next custom class you will create in this assignment)
+1. The collection of exercises that the student is currently working on. Hint: A List of type Exercise
 
 ## Cohort
 
-You must define a type for representing a cohort in code.
+You must define a type for representing a cohort in code. 
 
 1. The cohort's name (Evening Cohort 6, Day Cohort 25, etc.)
-1. The collection of students in the cohort.
-1. The collection of instructors in the cohort.
+- make a constructor that accepts the cohorts name
+1. The collection of students in the cohort. Hint: a List of <Student>
+1. The collection of instructors in the cohort. Hint: a List of <Instructor>
 
 ## Instructor
 
