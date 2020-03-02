@@ -6,7 +6,7 @@ You are going to build a console application that tracks exercises that are assi
 
 > **Note:** Make sure that each class you define is in its own file. Also make sure each class is in the `YourProjectName` namespace.
 Make new C# .NET Core Console Application and name it 'Final' or 'Chapter 7'
-```
+
 
 
 ## Student
