@@ -2,18 +2,10 @@
 
 You are going to build a console application that tracks exercises that are assigned to students at NewForce. These are the constraints and requirements for your application.
 
-## Entity Relationship Diagram
-
-First, build an ERD based on these requirements using [dbdiagram.io](https://dbdiagram.io).
-
 ## Setup
 
-> **Note:** Make sure that each class you define is in its own file. Also make sure each class is in the `StudentExercises` namespace.
-
-```sh
-mkdir -p ~/workspace/csharp/StudentExercises && cd $_
-touch Student.cs Cohort.cs Instructor.cs Exercise.cs
-dotnet new console
+> **Note:** Make sure that each class you define is in its own file. Also make sure each class is in the `YourProjectName` namespace.
+Make new C# .NET Core Console Application and name it 'Final' or 'Chapter 7'
 ```
 
 
@@ -68,7 +60,7 @@ Once you have defined all of your custom types, go to your `Main()` method in `P
 1. Have each instructor assign 2 exercises to each of the students.
 
 ## Challenge
-
+EXTRA CREDIT
 1. Create a list of students. Add all of the student instances to it.
     ```cs
     List<Student> students = new List<Student>();
